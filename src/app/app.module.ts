@@ -21,6 +21,7 @@ import { FunfactsTwoComponent } from './components/layouts/funfacts-two/funfacts
 import { ErrorComponent } from './components/pages/error/error.component';
 import { HomeTwelveComponent } from './components/pages/home-twelve/home-twelve.component';
 import {HttpClientModule } from '@angular/common/http';
+import { PricingComponent } from './components/layouts/pricing/pricing.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import {HttpClientModule } from '@angular/common/http';
     SubscribeComponent,
     ContactComponent,
     PartnerComponent,
+    PricingComponent,
     AboutComponent,
     WhyWeDifferentComponent,
     FaqComponent,
