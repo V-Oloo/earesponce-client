@@ -16,7 +16,6 @@ import { ContactComponent } from './components/layouts/contact/contact.component
 import { PartnerComponent } from './components/layouts/partner/partner.component';
 import { AboutComponent } from './components/layouts/about/about.component';
 import { WhyWeDifferentComponent } from './components/layouts/why-we-different/why-we-different.component';
-import { FaqComponent } from './components/layouts/faq/faq.component';
 import { FunfactsTwoComponent } from './components/layouts/funfacts-two/funfacts-two.component';
 import { ErrorComponent } from './components/pages/error/error.component';
 import { HomeTwelveComponent } from './components/pages/home-twelve/home-twelve.component';
@@ -39,7 +38,6 @@ import { PricingComponent } from './components/layouts/pricing/pricing.component
     PricingComponent,
     AboutComponent,
     WhyWeDifferentComponent,
-    FaqComponent,
     FunfactsTwoComponent,
     ErrorComponent
   ],
