@@ -566,7 +566,23 @@ Main Banner CSS
 }
 .item-bg1 {
     background: {
-        image: url(../../assets/img/bg1.jpg);
+        image: url(../../assets/img/bg2.jpeg);
+    }
+}
+
+.clip-path-banner {
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 70% 100%, 0 90%);
+
+    .main-banner-content {
+        margin-top: 0;
+    }
+}
+
+.clip-path-banner-two {
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 30% 100%, 0 90%);
+
+    .main-banner-content {
+        margin-top: 0;
     }
 }
 

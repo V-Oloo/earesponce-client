@@ -1,3 +1,4 @@
+import { PortfolioComponent } from './components/layouts/portfolio/portfolio.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -11,9 +12,7 @@ import { NavbarComponent } from './components/layouts/navbar/navbar.component';
 import { TeamComponent } from './components/layouts/team/team.component';
 import { TestimonialComponent } from './components/layouts/testimonial/testimonial.component';
 import { CtaComponent } from './components/layouts/cta/cta.component';
-import { SubscribeComponent } from './components/layouts/subscribe/subscribe.component';
 import { ContactComponent } from './components/layouts/contact/contact.component';
-import { PartnerComponent } from './components/layouts/partner/partner.component';
 import { AboutComponent } from './components/layouts/about/about.component';
 import { WhyWeDifferentComponent } from './components/layouts/why-we-different/why-we-different.component';
 import { FunfactsTwoComponent } from './components/layouts/funfacts-two/funfacts-two.component';
@@ -32,14 +31,13 @@ import { PricingComponent } from './components/layouts/pricing/pricing.component
     TeamComponent,
     TestimonialComponent,
     CtaComponent,
-    SubscribeComponent,
     ContactComponent,
-    PartnerComponent,
     PricingComponent,
     AboutComponent,
     WhyWeDifferentComponent,
     FunfactsTwoComponent,
-    ErrorComponent
+    ErrorComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
