@@ -38,6 +38,7 @@ export class ContactComponent implements OnInit {
           email: ['', [Validators.required, Validators.email]],
           subject: ['', [Validators.required]],
           message: ['', [Validators.required]],
+		  to_email: ['info@reinitresearch.com']
         });
     }
 
